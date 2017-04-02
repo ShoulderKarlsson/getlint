@@ -23,7 +23,7 @@ echo alias getlint="'sh $PWD/move.sh'" >> ~/[Replace with .zshrc / .bashrc]
 example: echo alias getlint="'sh $PWD/move.sh'" >> ~/.zshrc
 ```
 
-*Lastly, we need to make the file executable*
+*We need to make the file executable*
 
 ```zsh
 chmod +x move.sh
