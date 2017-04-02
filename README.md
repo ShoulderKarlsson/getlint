@@ -20,6 +20,7 @@ git clone https://github.com/ShoulderKarlsson/personal-styler.git
 
 ```zsh
 echo alias getlint="'sh $PWD/move.sh'" >> ~/[Replace with .zshrc / .bashrc]
+example: echo alias getlint="'sh $PWD/move.sh'" >> ~/.zshrc
 ```
 
 *Lastly, we need to make the file executable*
