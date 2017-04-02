@@ -3,7 +3,7 @@
 
 ## Installation
 ```
-git clone https://github.com/ShoulderKarlsson/personal-styler.git
+git clone https://github.com/ShoulderKarlsson/getlint.git
 ```
  *Update the script with the path to your eslint files*
  
