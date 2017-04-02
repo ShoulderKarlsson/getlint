@@ -1,5 +1,4 @@
 # getlint
-Super simple shell script that will grab your eslint files
 
 
 ## Installation
