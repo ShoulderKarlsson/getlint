@@ -13,7 +13,8 @@ git clone https://github.com/ShoulderKarlsson/getlint.git
  example:  LINT_LOCATION=/home/johndoe/Documents/programming/eslint
 ```
 
-*If you want, you can add an alias to your .bashrc or .zshrc. If so paste the following into the commandline of your choice*  
+The following will add an alias to your commanlind config.
+
 **NOTE** - For this to work, the active command line directory must be the getlint folder.
 
 ```zsh
