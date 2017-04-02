@@ -11,7 +11,7 @@ git clone https://github.com/ShoulderKarlsson/personal-styler.git
  ```zsh
  nano move.sh
  LINT_LOCATION=[DESTINATION_TO_YOUR_ESLINT_FILES_HERE]
- example:  LINT_LOCATION=/home/johndoe/programming/eslint
+ example:  LINT_LOCATION=/home/johndoe/Documents/programming/eslint
 ```
 
 *If you want, you can add an alias to your .bashrc or .zshrc. If so paste the following into the commandline of your choice*  
