@@ -34,7 +34,7 @@ chmod +x move.sh
 ## Usage
 In the commandline of your choice, write *getlint*. This will add your eslint files to the active directory.
 
-*Example*
+Example
 
 ```zsh
 $ cd new-amazing-project
