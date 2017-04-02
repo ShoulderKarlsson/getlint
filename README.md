@@ -28,3 +28,8 @@ example: echo alias getlint="'sh $PWD/move.sh'" >> ~/.zshrc
 ```zsh
 chmod +x move.sh
 ```
+**Done!**
+*Restart your command line and you are redy to go!*
+
+## Usage
+Simple write *getlint* in commandline of your choice. This will add your eslint files to the folder your commandline is placed on.
