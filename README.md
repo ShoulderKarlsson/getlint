@@ -1,24 +1,23 @@
-# personal-styler
+# getlint
+Super simple shell script that will grab your eslint files
 
-# Installation
+
+## Installation
 ```
 git clone https://github.com/ShoulderKarlsson/personal-styler.git
 ```
-
-Open a text editor and configure the path to your eslint files.  
-*ex LINT_CONFIG=/home/shoulder/Documents/programming/eslint*
+ *Update the script with the path to your eslint files*
+ 
+ ```zsh
+ nano move.sh
+ LINT_LOCATION=[DESTINATION_TO_YOUR_ESLINT_FILES_HERE]
+ example:  LINT_LOCATION=/home/johndoe/programming/eslint
 ```
-nano move.sh
-LINT_CONFIG=REPLACE_WITH_LOCATION_TO_ESLINT_FILES
-```
 
-# Installation
+*If you want, you can add an alias to your .bashrc or .zshrc. If so paste the following into the commandline of your choice*
+**NOTE** For this to work, the command line workding directory must be inside the personal-styler folder.
 
-1. Type the following in terminal / command line
 
-```
-git clone https://github.com/ShoulderKarlsson/personal-styler.git
-cd personal-styler
-nano move.sh
-LINT_CONFIG=REPLACE_WITH_FOLDER_WITH_ESLINT_FILES
+```zsh
+echo alias getlint="'sh $PWD/move.sh'" >> ~/[Replace with .zshrc / .bashrc]
 ```
