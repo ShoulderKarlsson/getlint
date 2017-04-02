@@ -14,9 +14,7 @@ git clone https://github.com/ShoulderKarlsson/personal-styler.git
 ```
 
 *If you want, you can add an alias to your .bashrc or .zshrc. If so paste the following into the commandline of your choice*  
-
-**NOTE** - For this to work, the command line workding directory must be inside the personal-styler folder.
-
+**NOTE** - For this to work, the active command line directory must be the getlint folder.
 
 ```zsh
 echo alias getlint="'sh $PWD/move.sh'" >> ~/[Replace with .zshrc / .bashrc]
